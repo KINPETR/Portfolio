@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Student Portfolio | Petr Kovář</title>
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
   <header class="hero" id="home">
@@ -14,6 +14,7 @@
         <li><a href="#home">Welcome</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#projects">My projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
         <li><a href="#hobbies">My hobbies</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -24,7 +25,7 @@
       <h1>Hello, my name is <span>Petr Kovář</span></h1>
       <p>
         Welcome to my personal student portfolio. On this website, I would like to
-        introduce myself, my school life, my hobbies and some of my projects.
+        introduce myself, my school life, my hobbies, technical projects and achievements.
       </p>
       <a href="#about" class="button">Read more</a>
     </div>
@@ -97,14 +98,13 @@
     <section class="section" id="projects">
       <div class="container">
         <p class="section-label">My projects</p>
-        <h2>School and technical projects</h2>
+        <h2>Technical projects</h2>
         <p class="intro">
-          During my studies, I have already worked on several projects. Some of them
-          helped me understand teamwork, while others allowed me to improve my practical
-          technical skills.
+          During my studies, I worked on projects that helped me understand both
+          teamwork and practical technical problem solving.
         </p>
 
-        <div class="project-grid">
+        <div class="project-grid two-projects">
           <article class="project-card">
             <h3>Formula Student</h3>
             <p>
@@ -122,20 +122,41 @@
               microcontroller.
             </p>
           </article>
+        </div>
+      </div>
+    </section>
 
-          <article class="project-card">
-            <h3>Electronics and programming</h3>
+    <section class="section light" id="achievements">
+      <div class="container">
+        <p class="section-label">Achievements</p>
+        <h2>My achievements</h2>
+        <p class="intro">
+          These achievements are important to me because they are connected with my
+          interest in technology, electronics and practical skills.
+        </p>
+
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <h3>ČEZ motivational programme</h3>
             <p>
-              In different school projects, I have worked with electronics, design and
-              programming. These projects helped me improve my logical thinking and
-              problem-solving skills.
+              I won the <strong>main prize of 18,000 CZK</strong> in the ČEZ motivational
+              programme. One year before that, I also achieved <strong>third place</strong>
+              in the same programme.
+            </p>
+          </article>
+
+          <article class="achievement-card">
+            <h3>ESCO graduation exam</h3>
+            <p>
+              I successfully completed the <strong>ESCO graduation exam</strong>, which
+              confirmed my technical knowledge and practical skills from secondary school.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section light" id="hobbies">
+    <section class="section" id="hobbies">
       <div class="container two-columns">
         <div class="card image-card">
           <img src="florbal.jpg" alt="Florbalový tým" class="profile-photo" />
